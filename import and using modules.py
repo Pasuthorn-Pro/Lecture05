@@ -1,4 +1,3 @@
-#main.py
 import math_operations
 
 result_add = math_operations.add(10,5)
