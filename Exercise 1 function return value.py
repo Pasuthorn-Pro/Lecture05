@@ -17,3 +17,5 @@ def is_armstrong(number):
         return False
 
 print(is_armstrong(153))
+print(is_armstrong(9474))
+print(is_armstrong(123))
