@@ -16,4 +16,4 @@ def is_armstrong(number):
     else:
         return False
 
-print(is_armstrong(371))
+print(is_armstrong(153))
