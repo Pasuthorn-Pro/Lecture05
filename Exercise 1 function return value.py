@@ -10,7 +10,7 @@ def is_armstrong(number):
 
     if total == number:
         output = " + ".join(f"{int(digit)}^{num_digits}" for digit in number_str)
-        #print(True)
+        
         print(f"{number} = {output}")
         return True
     else:
