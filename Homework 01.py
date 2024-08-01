@@ -4,3 +4,6 @@ def format_strings(*args):
 
 result = format_strings("Concatenate", "these", "strings", "please")
 print(result)
+
+result = format_strings("Python", "is", "fun")
+print(result)
