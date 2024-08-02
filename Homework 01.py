@@ -7,3 +7,6 @@ print(result)
 
 result = format_strings("Python", "is", "fun")
 print(result)
+
+result = format_strings("Python is fun")
+print(result)

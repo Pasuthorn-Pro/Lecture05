@@ -2,7 +2,11 @@ def format_strings(*args):
     if len(args) == 1 and ' ' in args[0]:
         formatted_string = args[0].replace(' ', '-').upper()
     else:
-        formatted_string = ''.join(args).upper()
+        # Initialize an empty string for concatenation
+        concatenated_string = ''
+        for arg in args:
+            concatenated_string += arg
+        formatted_string = concatenated_string.upper()
     return formatted_string
 
 if __name__ == '__main__':
