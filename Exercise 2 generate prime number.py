@@ -11,7 +11,6 @@ def generate_primes(num):
                 break
         if is_prime:
             primes.append(n)
-
     return primes
 
 print(generate_primes(32))
